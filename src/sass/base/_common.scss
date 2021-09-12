@@ -1,0 +1,40 @@
+body {
+  font-family: var(--main-font);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+svg {
+  fill: currentColor;
+}
+

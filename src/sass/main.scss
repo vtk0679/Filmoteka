@@ -1,0 +1,34 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// import from folder vendors
+@import './vendors/normalize';
+@import './vendors/basicLightbox.min';
+
+// import from folder utils
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/placeholder';
+
+// import from folder base
+@import './base/common';
+@import './base/container';
+
+// import from folder components
+@import './components/buttons';
+@import './components/toggle';
+@import './components/modal-content';
+@import './components/modal';
+@import './components/loader';
+@import './components/pagination';
+@import './components/delete';
+@import './components/player';
+
+// import from folder layout
+@import './layout/footer';
+@import './layout/header';
+@import './layout/gallery';
+@import './layout/header-lib';
+@import './layout/team-modal';
